@@ -21,6 +21,9 @@ Several questions will be asked:
 
 3. In what ways does the SVM regression boundary correspond with the data compared to the logistic regression boundary?
 
+4. What is the median house value?
+
+
 
 
 
