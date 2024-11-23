@@ -1,0 +1,13 @@
+name: support-vector-machine-env
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - python=3.8.18
+  - numPy=1.24.3
+  - pandas=2.0.3
+  - matplotlib=3.7.2
+  - scikit-learn=1.3.2
+  - seaborn=0.13.2
+  - sklearn=1.3.2
+  - scipy=1.10.1
