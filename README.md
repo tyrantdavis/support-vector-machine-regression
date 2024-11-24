@@ -11,7 +11,7 @@ Up to this point, training has been done working with housing datasets using var
 - data/cali_house_data.pickle
 
 ## Project Goals
-The goal is to assess the taxonomic classifications of plants while also teaching students about the different elements that can influence these predictions. Additionally, another aim is to evaluate how well a Logistic Regression model performs in classification compared to the predictive abilities of a Support-Vector Machine regression model.
+The goal is to analyze California housing data particularly around various attributes for the homes observed in the area and their prices while also teaching students about the different elements that can influence these predictions. Additionally, another aim is to evaluate how well a Logistic Regression model performs in classification compared to the predictive abilities of a Support-Vector Machine regression model.
 
 Several questions will be asked:
 
@@ -36,5 +36,12 @@ A dataset that can be used to train the machine-learning model has been found. I
 
 
 ## Conclusions
+1. Is the SVM regression model effective in enhancing prediction accuracy?
+    - Yes. The cost error decreased to 0.6110 and is even lower than that of the top-performing linear regression models.
 
-TBD...
+2. How is the MEDINC feature connected to the target feature, which is price?
+    - Generally, 'target' - the value of a home tends to increase as MEDINC(income) levels rise. 
+3. In what ways does the SVM regression boundary correspond with the data compared to the logistic regression boundary? 
+    - The linear regression boundary does not effectively address the outliers while the SVM regression boundary takes into account the outliers, utilizing them as support vectors in its decision-making process. This means that these unusual data points play a crucial role in shaping the model's predictions.
+4. What is the median house value?
+    - The median house value is $179700.00 
