@@ -1,4 +1,6 @@
-# Building a SVM Model for Regression
+# Building an SVM Model for Regression
+
+## [Demo](https://nbviewer.org/github/tyrantdavis/support-vector-machine-regression/blob/main/svm-regression.ipynb)
 
 ---
 
